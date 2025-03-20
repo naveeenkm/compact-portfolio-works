@@ -5,35 +5,38 @@ const Projects = () => {
   const projects = [
     {
       title: "Used Car Price Prediction Using ML",
+      name:"Machine Learning",
       description: "An interactive application designed to predict the prices of used cars, offering an intuitive interface. The project emphasizes efficient data processing, model training, and deployment for accurate predictions.",
       period: "May 2024 to Aug 2024",
       technologies: ["Python", "Streamlit", "NumPy", "Pandas", "Pickle", "scikit-learn", "Google Colab"],
       role: "Developing Machine Learning Model and Working with Data Base",
       links: {
-        demo: "#",
-        github: "#"
+        demo: "https://car-priceprediction.streamlit.app/",
+        github: "https://github.com/naveeenkm"
       }
     },
     {
       title: "E-Learning Platform",
+      name:"Full Stack",
       description: "A responsive platform providing seamless user experience across devices. Focused on secure data handling and efficient management of large datasets, with robust backend implementation and an intuitive user interface.",
       period: "Jan 2024 to April 2024",
       technologies: ["Django Framework", "MySQL", "Python", "MyPhpAdmin", "HTML", "CSS"],
       role: "Developing Backend, Working with Data Base and Templates",
       links: {
-        demo: "#",
-        github: "#"
+        demo: "https://github.com/naveeenkm",
+        github: "https://github.com/naveeenkm"
       }
     },
     {
       title: "Mobile App Development using Flutter",
+        name:"Mobile",
       description: "Developed innovative mobile applications using Flutter, focusing on efficient cross-platform performance and intuitive user interfaces. Collaborated with design teams to implement features and state management.",
       period: "Nov 2023 to Dec 2023",
       technologies: ["Flutter", "Dart", "Firebase", "REST APIs"],
       role: "Mobile App Development, UI/UX Implementation",
       links: {
-        demo: "#",
-        github: "#"
+        demo: "https://github.com/naveeenkm",
+        github: "https://github.com/naveeenkm"
       }
     }
   ];
@@ -113,7 +116,7 @@ const Projects = () => {
                   <div className="absolute inset-0 flex items-center justify-center text-white">
                     <div className="text-center">
                       <div className="text-5xl font-bold mb-2">{index + 1}</div>
-                      <div className="text-xl">{project.title.split(' ')[0]}</div>
+                      <div className="text-xl">{project.name}</div>
                     </div>
                   </div>
                   <div className="absolute inset-0 bg-blue-500 opacity-10 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px]"></div>
