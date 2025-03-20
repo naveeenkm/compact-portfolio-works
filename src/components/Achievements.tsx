@@ -20,7 +20,7 @@ const Achievements = () => {
             Achievements
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">
-            Notable Achievements
+            Achievements
           </h2>
           <p className="text-navy-700 max-w-3xl">
             Recognitions and awards I've received for my work and participation in various competitions and events.
@@ -39,10 +39,15 @@ const Achievements = () => {
                   <p className="text-navy-700 mb-4">{achievement.description}</p>
                   {achievement.link && (
                     <Button variant="outline" size="sm" className="inline-flex items-center gap-2" asChild>
-                      <a href={achievement.link} target="_blank" rel="noopener noreferrer">
-                        View Project <ExternalLink size={16} />
-                      </a>
-                    </Button>
+  <a 
+    href="https://www.linkedin.com/posts/naveen-k-m-171109212_hackathon-hackforhire-innovation-activity-7222244051322859520--HW2?utm_source=share&utm_medium=member_desktop" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    View Project <ExternalLink size={16} />
+  </a>
+</Button>
+
                   )}
                 </div>
               </div>
