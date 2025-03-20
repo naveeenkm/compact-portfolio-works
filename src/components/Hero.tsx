@@ -48,7 +48,7 @@ const Hero = () => {
                 <Linkedin size={22} />
               </a>
               <a 
-                href="https://github.com/" 
+                href="https://github.com/naveeenkm" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 text-navy-600 hover:text-blue-600 transition-colors"
