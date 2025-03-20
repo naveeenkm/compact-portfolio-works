@@ -84,7 +84,7 @@ const Hero = () => {
                       <span className="bg-blue-50 px-2 py-1 rounded">Django</span>
                     </div>
                     <div className="border-t border-navy-100 pt-4 text-sm text-navy-600">
-                      <div className="mb-1">CGPA - 9.05 (6th Semester)</div>
+                      <div className="mb-1">CGPA - 9.05 (7th Semester)</div>
                       <div>Bachelor of Engineering (CSE)</div>
                     </div>
                   </div>
