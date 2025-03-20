@@ -4,26 +4,32 @@ import { Button } from '@/components/ui/button';
 
 const Certifications = () => {
   const certifications = [
+     {
+      title: "Programming, Data Structures and Algorithms Using Python",
+      issuer: "NPTEL",
+      link: "https://nptel.ac.in/noc/E_Certificate/NPTEL23CS95S3467042910067625"
+    },
     {
       title: "Programming in Java",
       issuer: "NPTEL",
-      link: "#"
+      link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS49S5342007804158156"
     },
     {
       title: "Data Base Management System",
       issuer: "NPTEL",
-      link: "#"
+      link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS21S54690004630097696"
     },
-    {
-      title: "Programming, Data Structures and Algorithms Using Python",
-      issuer: "NPTEL",
-      link: "#"
-    },
+   
     {
       title: "Problem solving through programming in C",
       issuer: "NPTEL",
-      link: "#"
-    }
+      link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS53S3342007204158156"
+    },
+    {
+      title: "Data Structures & Algorithms using C and C++",
+      issuer: "Udemy",
+      link: "https://www.udemy.com/certificate/UC-be4777af-3f56-4dda-ad7d-5f12d4db2ef9/"
+    },
   ];
 
   return (
