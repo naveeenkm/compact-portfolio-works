@@ -7,7 +7,7 @@ const About = () => {
       degree: "Bachelor of Engineering (CSE)",
       institution: "Shivamogga",
       period: "2021 - ongoing",
-      description: "CGPA - 9.05 (6th Semester)",
+      description: "CGPA - 9.05 (7th Semester)",
     },
     {
       degree: "Pre-University",
