@@ -76,11 +76,12 @@ const Navbar = () => {
         </button>
       </div>
       
-      {/* Mobile navigation menu with white background */}
+      {/* Mobile navigation menu with solid white background */}
       <div 
         className={`fixed inset-0 z-40 bg-white transition-all duration-300 ease-in-out transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
+        style={{ backgroundColor: '#ffffff' }}
       >
         <div className="flex flex-col h-full pt-20 px-6">
           <nav className="flex flex-col space-y-6">
