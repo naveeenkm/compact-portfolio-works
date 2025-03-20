@@ -1,5 +1,5 @@
 
-import { GraduationCap, Award } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 
 const About = () => {
   const educationData = [
@@ -72,34 +72,6 @@ const About = () => {
                   </div>
                 ))}
               </div>
-            </div>
-
-            <div className="certifications">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="p-3 bg-blue-50 text-blue-600 rounded-full">
-                  <Award size={24} />
-                </div>
-                <h3 className="text-xl font-bold text-navy-900">Certifications</h3>
-              </div>
-
-              <ul className="space-y-3 pl-4">
-                <li className="bg-white rounded-lg p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                  <div className="font-semibold text-navy-900">Programming in Java</div>
-                  <div className="text-navy-600 text-sm">Issued by NPTEL</div>
-                </li>
-                <li className="bg-white rounded-lg p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                  <div className="font-semibold text-navy-900">Data Base Management System</div>
-                  <div className="text-navy-600 text-sm">Issued by NPTEL</div>
-                </li>
-                <li className="bg-white rounded-lg p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                  <div className="font-semibold text-navy-900">Programming, Data Structures and Algorithms Using Python</div>
-                  <div className="text-navy-600 text-sm">Issued by NPTEL</div>
-                </li>
-                <li className="bg-white rounded-lg p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                  <div className="font-semibold text-navy-900">Problem solving through programming in C</div>
-                  <div className="text-navy-600 text-sm">Issued by NPTEL</div>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

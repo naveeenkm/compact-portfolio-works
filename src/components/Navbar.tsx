@@ -22,6 +22,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Achievements', href: '#achievements' },
     { name: 'Experience', href: '#experience' },
     { name: 'Contact', href: '#contact' }
   ];
@@ -77,7 +78,7 @@ const Navbar = () => {
       
       {/* Mobile navigation menu */}
       <div 
-        className={`fixed inset-0 z-40 bg-white transition-all duration-300 ease-in-out transform ${
+        className={`fixed inset-0 z-40 bg-transparent backdrop-blur-lg transition-all duration-300 ease-in-out transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >
@@ -87,7 +88,7 @@ const Navbar = () => {
               <a 
                 key={link.name}
                 href={link.href}
-                className="text-lg font-medium text-navy-900 hover:text-blue-600 transition-colors py-2 border-b border-gray-100"
+                className="text-lg font-medium text-navy-900 hover:text-blue-600 transition-colors py-2 border-b border-gray-100/30"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.name}
