@@ -22,7 +22,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Achievements', href: '#achievements' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Experience', href: '#experience' },
     { name: 'Contact', href: '#contact' }
   ];
@@ -76,7 +76,7 @@ const Navbar = () => {
         </button>
       </div>
       
-      {/* Mobile navigation menu - Changed from transparent to white background */}
+      {/* Mobile navigation menu with white background */}
       <div 
         className={`fixed inset-0 z-40 bg-white transition-all duration-300 ease-in-out transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
