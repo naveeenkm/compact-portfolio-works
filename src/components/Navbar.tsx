@@ -84,7 +84,7 @@ const Navbar = () => {
         style={{ backgroundColor: '#ffffff' }}
       >
         <div className="flex flex-col h-full pt-20 px-6">
-          <nav className="flex flex-col space-y-6">
+          <nav className="flex flex-col space-y-6 bg-white p-5">
             {navLinks.map((link) => (
               <a 
                 key={link.name}
