@@ -87,7 +87,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-navy-900 mb-1">Location</h3>
-                    <p className="text-navy-700">Shivamogga, Karnataka, India</p>
+                    <p className="text-navy-700"> Karnataka, India</p>
                   </div>
                 </div>
               </div>
