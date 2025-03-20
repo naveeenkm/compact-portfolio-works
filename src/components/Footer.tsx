@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="text-navy-300">
                 <span className="block">Location:</span>
-                <span>Shivamogga, Karnataka, India</span>
+                <span>Karnataka, India</span>
               </li>
             </ul>
           </div>
@@ -90,7 +90,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a 
-              href="https://github.com/" 
+              href="https://github.com/naveeenkm" 
               className="text-navy-400 hover:text-white transition-colors"
               target="_blank"
               rel="noopener noreferrer"
