@@ -76,9 +76,9 @@ const Navbar = () => {
         </button>
       </div>
       
-      {/* Mobile navigation menu */}
+      {/* Mobile navigation menu - Changed from transparent to white background */}
       <div 
-        className={`fixed inset-0 z-40 bg-transparent backdrop-blur-lg transition-all duration-300 ease-in-out transform ${
+        className={`fixed inset-0 z-40 bg-white transition-all duration-300 ease-in-out transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >
